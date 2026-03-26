@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupig Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: slategrey;
+        } 
+
+        nav{
+            background-color: cadetblue;
+            padding: 5px;
+            box-shadow: 1px 1px 1px black;
+        }
+
+        nav> a{
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: bold;
+            padding: 5px;
+        }
+
+        nav> a:hover{
+            color: blue;
+        }
+
+        nav> a:active{
+            color: aquamarine;
+        }
+
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        article{
+            background-color: rgb(143, 175, 175);
+            box-shadow: 1px 1px 1px black;
+        }
+
+        #isso> p{
+            background-color: rgb(11, 152, 218);
+        }
+
+        #isso02>p{
+            background-color: darkcyan;
+        }
+
+        article > aside {
+             color: darkblue;
+             padding: 5px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        
+        #assuntos{
+            color: rgb(1, 53, 131);
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        #bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: blue;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+             <p>ODL que o assunto aki vai ser eu né</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ut, possimus libero quam, sit dolores praesentium corrupti dicta doloremque at optio fugiat suscipit esse sequi dignissimos ullam debitis quia. Illum!</p>
+                <aside>
+                    <p>Artigo escrito por Lenadro Macedo</p>
+                </aside>
+            </article>
+            <article id="isso">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure placeat minus perspiciatis, ut dolore temporibus, non hic laboriosam fuga et dolores at expedita rerum nesciunt ipsum! Sint quos dicta ad!</p>
+            </article>
+            <article id="isso02">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat accusamus nulla iusto eum omnis repellendus asperiores nihil aperiam dignissimos, culpa numquam tenetur nemo eos sint perspiciatis ut quas nesciunt assumenda?</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Leandro</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
